@@ -13,8 +13,8 @@ install=dwm.install
 source=(http://dl.suckless.org/dwm/dwm-$pkgver.tar.gz
         config.h)
 
-_patches=(dwm-$pkgver-pango.diff
-          dwm-$pkgver-bstack.diff
+_patches=(dwm-$pkgver-bstack.diff
+          dwm-$pkgver-xft.diff
           dwm-$pkgver-warp.diff)
 
 source=(${source[@]} ${_patches[@]})

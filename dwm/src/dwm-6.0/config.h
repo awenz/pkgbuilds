@@ -6,7 +6,7 @@
 #include "bstackhoriz.c"
 
 /* appearance */
-static const char font[]            = "Verdana 9";
+static const char font[]            = "Profont 8";
 static const char normbordercolor[] = "#ffffff";
 static const char normbgcolor[]     = "#e0e0e0";
 static const char normfgcolor[]     = "#0e0e0e";
